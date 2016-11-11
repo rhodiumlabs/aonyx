@@ -2,7 +2,7 @@ import React from 'react'
 import Head from 'next/head'
 import Page from '../containers/page'
 import css, {style, merge, after, $} from 'next/css'
-
+import Animation from '../components/canvasAnim'
 const stormy = '#494E6B';
 const sunset = '#985E6D';
 const evening = '#192231';
@@ -12,23 +12,38 @@ const heroBar = css({
   height: '100vh',
   width: '100%',
   color:'white',
-  backgroundSize: 'cover',
-  backgroundPositionY: '10%',
-  backgroundPositionX: '0%',
-  backgroundImage: 'url(/static/hero.jpg)',
+    background: [
+        sunset,
+        `-webkit-linear-gradient(-30deg, ${sunset} 100%,${evening}) 20%`,
+        `linear-gradient(-30deg, ${sunset} 20%,${evening} 100%)`
+      ],
   height:'100vh',
-  boxShadow:'rgba(46, 49, 68, 0.5) 0px -100vh 50vh inset'
 });
 
 const heading = merge({
   marginTop: '35vh',
   display: 'inline-block',
-  padding: '0px 20px',
+  padding: '0em 0em 0em 5em',
   marginBottom: '5em',
   color:'white',
-  fontFamily:'Rajdhani',
-  textShadow:'0px 3px 13px #333',
-}, $(' h1', {fontSize: '8em', lineHeight:'1em', margin:'0'}))
+  textAlign: 'left',
+  position: 'relative',
+  borderLeft: '1px solid #CCC',
+
+},
+  after({
+    content:'""', 
+    position:'absolute', 
+    left:'0', 
+    bottom: '-20px',
+    width: '20px',
+    height: '20px',
+    borderRadius: '50%',
+    left: '-10px',
+    border:' 1px solid white'}),
+  $(' h1', {fontFamily: 'Poiret One', fontSize: '6em', lineHeight:'1em', margin:'0'}),
+  $(' h2', {fontFamily: 'Lato', fontSize: '4em', lineHeight:'1em', margin:'0'}),
+)
 
 const sectionStyle = (background = "white", textColor="white", gradient=[evening, stormy]) => 
   merge({
@@ -39,6 +54,8 @@ const sectionStyle = (background = "white", textColor="white", gradient=[evening
     position: 'relative'
   },
   $(' .container', { zIndex: '2' }),
+  $(' h1', { fontFamily: 'Lato', fontSize:'5em' }),
+  $(' h2', { fontFamily: 'Lato', fontSize:'4em' }),
   $(' p', { color: '#AAA' }),
   gradient ? 
     after({
@@ -52,8 +69,8 @@ const sectionStyle = (background = "white", textColor="white", gradient=[evening
       zIndex: 1,
       background: [
         sunset,
-        `-webkit-linear-gradient(to right, ${gradient[0]},${gradient[1]})`,
-        `linear-gradient(to right, ${gradient[0]},${gradient[1]})`
+        `-webkit-linear-gradient(to right, ${gradient[0]} 0%,${gradient[1]}) 100%`,
+        `linear-gradient(to right, ${gradient[0]} 0%,${gradient[1]} 100%)`
       ]
     }): {}
   )
@@ -61,12 +78,14 @@ const sectionStyle = (background = "white", textColor="white", gradient=[evening
 const section1 = sectionStyle('url(/static/manhattan.jpg)')
 const section2 = sectionStyle('white', 'black', ['white','white'])
 const section3 = sectionStyle('url(/static/planet.jpg)', 'white', null)
-const section4 = sectionStyle('white', 'white', 'white')
+const section4 = sectionStyle('url(/static/hero.jpg)', 'white', [stormy, evening])
 export default () => (
   <Page>
+    <Animation />
     <header className={`header ${heroBar} `}>
       <div>
         <section className="container">
+         
           <div className={`${heading}`}>
             <h1>AONYX</h1>
             <h2>public service as a service</h2>
@@ -84,10 +103,10 @@ export default () => (
           </div>
             <div className="row">
               <div className="column">
-                <h5>It augments the public service we've come to know by allowing private citizens to take part in helping serve their communities.</h5>
+                <h2 style={{fontSize: '1.9em'}}>It augments the public service we've come to know by allowing private citizens to take part in helping serve their communities.</h2>
               </div>
               <div className="column">
-                <h5>Stepping in this direction unlocks vast derivative markets that will fuel the next phase of global economic growth and social prosperity for all.</h5>
+                <h2 style={{fontSize: '1.9em'}}>Stepping in this direction unlocks vast derivative markets that will fuel the next phase of global economic growth and social prosperity for all.</h2>
               </div>
             </div>
           </div>
@@ -165,9 +184,9 @@ export default () => (
               <div className="row" style={{marginTop:'10em'}}>
                 
                 <div className={`column ${style({ textAlign: 'left'})}`}>
-                  <h2>Unprecedented Data Streams</h2>
-                  <div style={{textTransform: 'uppercase', fontSize: '4em'}}>Restarted global economic growth, fresh investment opportunities.</div>
-                  <p >{
+                  <h5>Unprecedented Data Streams</h5>
+                  <h2 style={{textTransform: 'uppercase'}}>Restarted global economic growth, fresh investment opportunities.</h2>
+                  <p>{
                     `The side-effects that follow from deploying Aonyx in a city
                     produce and expose data useful to investors, insurers, and
                     anyone wishing to improve modeling of trade positions.
@@ -210,67 +229,3 @@ export default () => (
 
   </Page>
 )
-/*
-
-# Section
-    # Title
-        Unprecedented Data Streams
-    # Subtitle
-        Restarted global economic growth, fresh investment opportunities.
-    # Description
-        The side-effects that follow from deploying Aonyx in a city
-        produce and expose data useful to investors, insurers, and
-        anyone wishing to improve modeling of trade positions.
-        Derivative markets that form to trade against these
-        movements will also allow hedging against exposures that were
-        previously impossible.
-    # Graphic
-        See the graphic on https://digitalasset.com/platform.html
-        We'll send you a sketch of something more specific shortly.
-        Some of the blocks in that diagram will connect to text around
-        it. Three example sections.
-        # Price Signaling
-            The market rates that dynamically form for various
-            services are exposed in the aggregate. This means they
-            are accessible in a granular time-scale, with always
-            up-to-date information, and granular locality, exposing
-            differences between regions.
-        # Derivative Markets
-            The market rates that dynamically form for various
-            services are exposed in the aggregate. This means they
-            are accessible in a granular time-scale, with always
-            up-to-date information, and granular locality, exposing
-            differences between regions.
-        # Novel Arbitrage
-            The market rates that dynamically form for various
-            services are exposed in the aggregate. This means they
-            are accessible in a granular time-scale, with always
-            up-to-date information, and granular locality, exposing
-            differences between regions.
-
-# Section
-    # Title
-        Future Products and Services
-    # Description
-        By their nature, the side-effects and future social
-        innovations induced by nascent economic orders are
-        impossible to predict.  What we know for certain are that
-        the most profound implications will materialize only once
-        these platforms exist, but for now we can foretell some
-        obvious movements to expect.
-    # Table of things
-        # DISP
-            lorem ipsum
-            # Graphic
-                Network of internet users, towers, clouds, info flow,
-                etc.
-        # Transport
-            lorem ipsum
-            # Graphic
-                Network of drivers, passengers, etc.
-        # Drone Delivery
-            lorem ipsum
-            # Graphic
-                Drones
-
-*/
