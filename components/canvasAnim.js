@@ -7,11 +7,11 @@ class Particle {
       this.vy = (Math.random() * -1) / 3;
       this.ctx = ctx;
        //size of Particle
-      this.radius = 1.5;
+      this.radius = Math.floor(Math.random() * 4) + 1  ;
     }
     draw() {
         var dist = Math.abs(this.y - window.innerHeight / 2);
-        this.ctx.fillStyle = "rgba(255,255,255, 0.5)";
+        this.ctx.fillStyle = "rgba(255,255,255,0.2)";
         this.ctx.beginPath();
         this.ctx.arc(this.x, this.y, this.radius, 0, Math.PI * 2, false);
         this.ctx.fill();
@@ -76,7 +76,7 @@ export default class extends React.Component {
 
     if (dist <= 210 || Math.abs(dx) < 100) {
         ctx.beginPath();
-        ctx.strokeStyle = "rgba(255,255,255,0.1)";
+        ctx.strokeStyle = "rgba(152, 94, 109, 0.2)";
         ctx.moveTo(p1.x, p1.y);
         ctx.lineTo(p2.x, p2.y);
         ctx.stroke();
@@ -105,9 +105,9 @@ export default class extends React.Component {
     for (var i = 0; i < this.particles.length; i++) {
         let p = this.particles[i];
         if (i % 2 == 0)
-            p.y = (Math.sin(2*x) * amplitude) + h / 1.4;
+            p.y = (Math.sin(2*x) * amplitude) + h / 1.2;
         else
-            p.y = (1 - Math.sin(x) * amplitude) + h / 1.4;
+            p.y = (1 - Math.sin(x) * amplitude) + h / 1.2;
 
         x += dx;
 
