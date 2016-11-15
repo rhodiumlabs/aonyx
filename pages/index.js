@@ -8,7 +8,7 @@ import { stormy, evening, sunset } from '../constants/colors'
 
 
 const divider = css({
-    width: '100vw',
+    width: '100%',
     height: '12.5vw',
     marginBottom: '10em',
     backgroundSize: 'cover',
