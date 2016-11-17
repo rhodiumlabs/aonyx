@@ -92,7 +92,7 @@ export default () => (
          
           <div className={`${heading}`}>
             <h1>AONYX</h1>
-            <h2>public service as a service</h2>
+            <h2>reinsurance reimagined</h2>
           </div>
 
         </section>
@@ -114,10 +114,10 @@ export default () => (
           </div>
             <div className="row">
               <div className="column">
-                <h5>It augments the public service we've come to know by allowing private citizens to take part in helping serve their communities.</h5>
+                <h5>Aonyx is a platform that enables automatic insurance and reinsurance data exchange distributed data exchange that is immutable, private, secure, and resilient. </h5>
               </div>
               <div className="column">
-                <h5>Stepping in this direction unlocks vast derivative markets that will fuel the next phase of global economic growth and social prosperity for all.</h5>
+                <h5>It allows reinsurance companies to optimise current protocols and processes within an insurance organization so it can adapt to the universal, decentralized open ledger.</h5>
               </div>
             </div>
           </div>
@@ -127,7 +127,7 @@ export default () => (
         <div className="container">
           <div className="row" style={{marginTop:'15em'}}>
             <div className="column">
-            <h2>Decentralized P2P Marketplace</h2>
+            <h2>AONYX IS BUILT FOR INSURERS.</h2>
             </div>
           </div>
           <div className="row" style={{marginTop:'2em'}}>
@@ -135,12 +135,8 @@ export default () => (
               <div className="row">
                 <div className="column">
                   
-                  <h5>Simple idea. Profound implications.</h5>
-                  <p>{`At the core of Aonyx lies a decentralized Peer-to-Peer marketplace. 
-                    This core infrastructure creates a way for providers and consumers to transact in a trustless network ecosystem. 
-                    These actors might be citizens, professionals, service companies, governments, or anything in between. 
-                    You can think of it as an Uber without a monopolizing corporation pulling the strings, and with the potential 
-                    for anything to be built atop. Transportation is just the beginning.`}</p>
+                  <h5>THE PROBLEM OF COMPLEX CLAIMS MANAGEMENT</h5>
+                  <p>{`Insurance contracted between consumers and reinsurers are complex and require a substantial claim process between the three parties to ensure accurate and fair claims are made.`}</p>
                 </div>
               </div>
             </div>
