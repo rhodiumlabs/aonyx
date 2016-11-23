@@ -92,7 +92,7 @@ export default () => (
          
           <div className={`${heading}`}>
             <h1>AONYX</h1>
-            <h2>reinsurance reimagined</h2>
+            <h2>envision a world better prepared</h2>
           </div>
 
         </section>
@@ -106,7 +106,7 @@ export default () => (
           <div className="row">
             <div className="column column-75">
               <h1 style={{fontSize:'3.5em', fontWeight: '100',textTransform:'uppercase', margin: '2.4em 0em 2em 0em'}}>
-                <b>Aonyx</b> is a system built to enable a new kind of economic order.
+                <b>Aonyx</b> is a works on a catastrophic scale.
               </h1>
             </div>
             <div className="column">
@@ -114,10 +114,10 @@ export default () => (
           </div>
             <div className="row">
               <div className="column">
-                <h5>Aonyx is a platform that enables automatic insurance and reinsurance data exchange distributed data exchange that is immutable, private, secure, and resilient. </h5>
+                <h5> Nature works in powerful ways, catastrophic events happen, and we rely on certain actors to successfully handle the impact. </h5>
               </div>
               <div className="column">
-                <h5>It allows reinsurance companies to optimise current protocols and processes within an insurance organization so it can adapt to the universal, decentralized open ledger.</h5>
+                <h5>what if the public and private sectors had a system to save lives, allocate time and rebuild from disasters? </h5>
               </div>
             </div>
           </div>
@@ -127,7 +127,7 @@ export default () => (
         <div className="container">
           <div className="row" style={{marginTop:'15em'}}>
             <div className="column">
-            <h2>AONYX IS BUILT FOR INSURERS.</h2>
+            <h2>Who do we trust when these events happen?</h2>
             </div>
           </div>
           <div className="row" style={{marginTop:'2em'}}>
@@ -135,8 +135,12 @@ export default () => (
               <div className="row">
                 <div className="column">
                   
-                  <h5>THE PROBLEM OF COMPLEX CLAIMS MANAGEMENT</h5>
-                  <p>{`Insurance contracted between consumers and reinsurers are complex and require a substantial claim process between the three parties to ensure accurate and fair claims are made.`}</p>
+                  <h5>Public Institutions, Governmental Processes, Private Organizations, Reinsurance and Insurance Companies </h5>
+                  <p>{`In a 1.1 trillion dollar industry in the USA alone, the complexity of reinsurance, 
+                      insurance, governmental and public organizations are the result of how important
+                      and resource consuming public safety has become. During catastrophic events, like  
+                      earthquakes, tsunamis and hurricanes, we trust these actors to supply resources 
+                      when disastrous events happen.`}</p>
                 </div>
               </div>
             </div>
@@ -184,20 +188,26 @@ export default () => (
           </div>
           <div className="row">
           <div className={`column ${style({ textAlign: 'left'})}`}>
-                  <h2>Public-Private Partnerships for the 21st Century</h2>
+                  <h2>The Future of Public Services as a Service </h2>
                   
           </div>
 
 
           <div className={`column ${style({ textAlign: 'left'})}`}>
-                  <h4>A great idea taken to the next level.</h4>
+                  <h4>At the core of Aonyx is using blockchain technologies, 
+                  that is a online distributed ledger, messaging passing and storage. 
+                  It provides a user-friendly interface that is both trustworthy and transparent 
+                  to all stakeholders.</h4>
                   <p></p>
                   <p>{
-                    `There are many benefits to the traditional Public-Private partnership, but we can do better than the traditional model.
-                    Aonyx enables the creation of ad-hoc Public-Private Partnerships as a natural corollary of the DP2P core and dynamic 
-                    subisidy mechanisms it enables. Since providers in the netwwork can be anyone from private citizens to private companies, 
-                    contractual agreements can happen on-the-fly, and subsidies can appear with hyper-granularity, shortlived or longterm 
-                    partnerships will happen without the huge overhead assumed today.`}</p>
+                    `The advantage of a blockchain ledger is the verification and immutability (permanence) 
+                     of data on the network.  Each stakeholder independently records information 
+                     and it is distributed across computers around the world, rather than stored 
+                     on one central authority. The point being the Blockchain records are locally 
+                     decentralized in a peer to peer (P2P) network, but still constitute a logically 
+                     centralized immutable set. Used alongside smart contacts, Aonyx… can allow 
+                     business logic and workflows to be built into a distributed ledger and 
+                     Capable of updating the ledger (e.g., making payments) based on pre-defined conditions`}</p>
                 </div>
           </div>
         </div>
@@ -207,48 +217,52 @@ export default () => (
           <div className="row">
               <div className="column">
               
-                  <h2 style={{textTransform: 'uppercase'}}>Restarted global economic growth, fresh investment opportunities.</h2>
+                  <h2 style={{textTransform: 'uppercase'}}>Insurance and Reinsurance </h2>
                 </div>
           </div>
           <div className="row">
               <div className="column-75 column" style={{margin: '2em 0em 2em 0em'}}>
                   <h5>{
-                    `The side-effects that follow from deploying Aonyx in a city
-                    produce and expose data useful to investors, insurers, and
-                    anyone wishing to improve modeling of trade positions.
-                    Derivative markets that form to trade against these
-                    movements will also allow hedging against exposures that were
-                    previously impossible.`}</h5>
+                    `The side-effects that follow from deploying Aonyx in a better structure for organizations 
+                    that come to action during high impact events. Aonyx can replace human interventions that 
+                    are placed throughout the entire risk transfer process, 
+                    removing delays and the risks of human error – with a radical 
+                    effect on the speed and efficiency of the process.`}</h5>
                 </div>
           </div>
 
           <div className="row">
             <div className="column">
               <img src="static/line-graph.svg" width="100"/>
-              <h5>Price Signaling</h5>
-              <p>The market rates that dynamically form for various
-            services are exposed in the aggregate. This means they
-            are accessible in a granular time-scale, with always
-            up-to-date information, and granular locality, exposing
-            differences between regions.</p>
+              <h5>Collaboration Made Simple </h5>
+              <p>Smart contracts and blockchain applications 
+              allows for data sharing and improved transparency 
+              between all stakeholders. Insurance policies and 
+              associated claim information is on a trusted distributed 
+              network, therefore the encrypted information, 
+              and smart contracts ensures the data can be validated 
+              by any authorized participant on the network. 
+              Event details are documented using cryptographic methods, 
+              resulting in a tamper-proof record of all relevant information 
+              for the creation of higher quality policies and faster claim payout.
+
+</p>
             </div>
             <div className="column">
               <img src="static/networking.svg" width="100"/>
-              <h5>Derivative Markets</h5>
-              <p>The market rates that dynamically form for various
-            services are exposed in the aggregate. This means they
-            are accessible in a granular time-scale, with always
-            up-to-date information, and granular locality, exposing
-            differences between regions.</p>
+              <h5>Anticipate  with Better Analysis</h5>
+              <p>Made for the underwriters, brokers and actuaries to improve transparency 
+                and accurately store information for future risk analysis including: 
+                assets, claims and portfolio data. Organizations can use the accumulated
+                data to develop better risk analysis of future CAT events, and 
+                the implications that come with it. As the event data is securely recorded, 
+                and constantly updated by other stakeholders, policies and claims are higher 
+                quality and cover those affected more efficiently. .</p>
             </div>
             <div className="column">
               <img src="static/nodes.svg" width="100"/>
-              <h5>Novel Arbitrage</h5>
-              <p>The market rates that dynamically form for various
-            services are exposed in the aggregate. This means they
-            are accessible in a granular time-scale, with always
-            up-to-date information, and granular locality, exposing
-            differences between regions.</p>
+              <h5>Third Impacte</h5>
+              <p>Cost saving, finances, etc</p>
             </div>
           </div>
         </div>
