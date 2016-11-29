@@ -10,22 +10,27 @@ import { stormy, evening, sunset } from '../constants/colors'
 const divider = css({
     width: '100%',
     height: '12.5vw',
-    marginBottom: '10em',
     backgroundSize: 'cover',
     top: '-1',
     position: 'absolute',
     zIndex: 5
 })
+const topDivider = css({
+  paddingTop: '4em !important'
+})
+const bottomDivider = css({
+  paddingBottom: '3em !important'
+})
 const sectionStyle = (background = "white", textColor="white", gradient=[evening, stormy]) => 
   merge({
     background: background,
     backgroundSize:'cover',
-    padding: '6em 0em 6em 0em',
+    padding: '12em 0em 12em 0em',
     color: textColor,
     position: 'relative',
   },
   $(' .container', { zIndex: '2' }),
-  $(' h1', { fontFamily: 'Lato', fontSize:'5em' }),
+  $(' h5', { fontFamily: 'Lato', textTransform:'uppercase', fontWeight:'300'}),
   $(' h2', { fontFamily: 'Lato', fontSize:'4em' }),
   $(' p', { color: textColor }),
   gradient ? 
@@ -51,16 +56,17 @@ const section2 = sectionStyle('white', 'black', ['white','white'])
 const section3 = sectionStyle('url(/static/planet.jpg)', 'white', null)
 const section4 = sectionStyle('white', 'black', ['white','white'])
 
+const heroText = css({fontWeight: '400', textTransform:'uppercase', marginBottom: '1em', fontFamily:'Lato'});
 
 export default () => (
   <Page>
     <Header />
-    <section className={section4}>
+    <section className={`${section4} ${bottomDivider}`}>
         <div className={divider} style={{backgroundImage: "url(/static/tri-bottom.svg)"}}></div>
-        <div className="container">
+        <div className={`container ${topDivider}`}>
           <div className="row">
-            <div className="column column-75">
-              <h1 style={{fontSize:'3.5em', fontWeight: '100',textTransform:'uppercase', margin: '2.4em 0em 2em 0em'}}>
+            <div className="column column-75" >
+              <h1 className={heroText}>
                 <b>Aonyx</b> is a system built to enable a new kind of economic order.
               </h1>
             </div>
@@ -69,26 +75,26 @@ export default () => (
           </div>
             <div className="row">
               <div className="column">
-                <h5>It augments the public service we've come to know by allowing private citizens to take part in helping serve their communities.</h5>
+                <p>It augments the public service we've come to know by allowing private citizens to take part in helping serve their communities.</p>
               </div>
               <div className="column">
-                <h5>Stepping in this direction unlocks vast derivative markets that will fuel the next phase of global economic growth and social prosperity for all.</h5>
+                <p>Stepping in this direction unlocks vast derivative markets that will fuel the next phase of global economic growth and social prosperity for all.</p>
               </div>
             </div>
           </div>
       </section>
-      <section className={section1} >
+      <section className={`${section1} ${bottomDivider}`} >
         <div className={divider} style={{backgroundImage: "url(/static/tri-bottom2.svg)"}}></div>
-        <div className="container">
-          <div className="row" style={{marginTop:'15em'}}>
+        <div className={`container ${topDivider} ${bottomDivider}`}>
+          <div className="row" >
             <div className="column">
-            <h2>Decentralized P2P Marketplace</h2>
+            <h1 className={heroText}>Decentralized P2P Marketplace</h1>
             </div>
           </div>
-          <div className="row" style={{marginTop:'2em'}}>
+          <div className="row" >
             <div className="column">
               <div className="row">
-                <div className="column">
+                <div className="column" style={{marginTop:'3em'}}>
                   
                   <h5>Simple idea. Profound implications.</h5>
                   <p>{`At the core of Aonyx lies a decentralized Peer-to-Peer marketplace. 
@@ -107,15 +113,15 @@ export default () => (
 
       </section>
 
-      <section className={section2} >
+      <section className={`${section2} ${bottomDivider}`} >
         <div className={divider} style={{backgroundImage: "url(/static/tri-bottom.svg)"}}></div>
-        <div className="container">
+        <div className={`container ${topDivider}`}>
           <div className="row">
             <div className="column">
               <div className="row">
-                <div className={`column ${style({ textAlign: 'center', marginTop: '10em'})}`}>
+                <div className={`column ${style({ textAlign: 'center'})}`}>
                   <div style={{backgroundImage:'url(/static/subsidies.svg)', width:'200px', height:'200px', display:'inline-block'}}></div>
-                  <h2>Rethink Subsidies</h2>
+                  <h1 className={heroText} >Rethink Subsidies</h1>
                   <h5>Frictionless, Trustless, Transparent.</h5>
                   <p >{
                     `With Aonyx's DP2P core, a new way to subsidize activities and public services becomes possible. 
@@ -132,31 +138,22 @@ export default () => (
       </section>
       <section className={section3} >
       <div className={divider} style={{backgroundImage: "url(/static/tri-bottom3.svg)"}}></div>
-        <div className="container">
+        <div className={`container ${topDivider}`}>
           <div className="row">
-            <div className="column">
-              <div className="row" style={{marginTop:'10em'}}>
+          <div className={`column  ${style({ textAlign: 'center'})}`}>
+                  <h1 className={heroText} >Public-Private Partnerships <br/> for the 21<sup>st</sup> Century</h1>
+                                <div className="row" >
                 <div style={{backgroundImage:'url(/static/people-connected.svg)', width:'500px', height:'500px', margin:'auto'}}></div>
                 
               </div>
-            </div>
-          </div>
-          <div className="row">
-          <div className={`column ${style({ textAlign: 'left'})}`}>
-                  <h2>Public-Private Partnerships for the 21st Century</h2>
-                  
-          </div>
-
-
-          <div className={`column ${style({ textAlign: 'left'})}`}>
-                  <h4>A great idea taken to the next level.</h4>
-                  <p></p>
-                  <p>{
-                    `There are many benefits to the traditional Public-Private partnership, but we can do better than the traditional model.
+                  <h5>A great idea taken to the next level.</h5>
+                  <p>
+                    There are many benefits to the traditional Public-Private partnership, but we can do better than the traditional model.
                     Aonyx enables the creation of ad-hoc Public-Private Partnerships as a natural corollary of the DP2P core and dynamic 
                     subisidy mechanisms it enables. Since providers in the netwwork can be anyone from private citizens to private companies, 
                     contractual agreements can happen on-the-fly, and subsidies can appear with hyper-granularity, shortlived or longterm 
-                    partnerships will happen without the huge overhead assumed today.`}</p>
+                    partnerships will happen without the huge overhead assumed today.
+                  </p>
                 </div>
           </div>
         </div>
@@ -165,19 +162,19 @@ export default () => (
         <div className="container">
           <div className="row">
               <div className="column">
-              
-                  <h2 style={{textTransform: 'uppercase'}}>Restarted global economic growth, fresh investment opportunities.</h2>
+                  <h1 className={heroText}>Restarted global economic growth, fresh investment opportunities.</h1>
                 </div>
           </div>
           <div className="row">
               <div className="column-75 column" style={{margin: '2em 0em 2em 0em'}}>
-                  <h5>{
-                    `The side-effects that follow from deploying Aonyx in a city
+                  <p>
+                    The side-effects that follow from deploying Aonyx in a city
                     produce and expose data useful to investors, insurers, and
                     anyone wishing to improve modeling of trade positions.
                     Derivative markets that form to trade against these
                     movements will also allow hedging against exposures that were
-                    previously impossible.`}</h5>
+                    previously impossible.
+                  </p>
                 </div>
           </div>
 
@@ -185,29 +182,34 @@ export default () => (
             <div className="column">
               <img src="static/line-graph.svg" width="100"/>
               <h5>Price Signaling</h5>
-              <p>The market rates that dynamically form for various
-            services are exposed in the aggregate. This means they
-            are accessible in a granular time-scale, with always
-            up-to-date information, and granular locality, exposing
-            differences between regions.</p>
+              <p>
+                The market rates that dynamically form for various
+                services are exposed in the aggregate. This means they
+                are accessible in a granular time-scale, with always
+                up-to-date information, and granular locality, exposing
+                differences between regions.
+              </p>
             </div>
             <div className="column">
               <img src="static/networking.svg" width="100"/>
               <h5>Derivative Markets</h5>
-              <p>The market rates that dynamically form for various
-            services are exposed in the aggregate. This means they
-            are accessible in a granular time-scale, with always
-            up-to-date information, and granular locality, exposing
-            differences between regions.</p>
+              <p>
+                The market rates that dynamically form for various
+                services are exposed in the aggregate. This means they
+                are accessible in a granular time-scale, with always
+                up-to-date information, and granular locality, exposing
+                differences between regions.
+              </p>
             </div>
             <div className="column">
               <img src="static/nodes.svg" width="100"/>
               <h5>Novel Arbitrage</h5>
               <p>The market rates that dynamically form for various
-            services are exposed in the aggregate. This means they
-            are accessible in a granular time-scale, with always
-            up-to-date information, and granular locality, exposing
-            differences between regions.</p>
+                services are exposed in the aggregate. This means they
+                are accessible in a granular time-scale, with always
+                up-to-date information, and granular locality, exposing
+                differences between regions.
+              </p>
             </div>
           </div>
         </div>
