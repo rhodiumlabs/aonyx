@@ -50,7 +50,7 @@ export default () => (
       </div>
       <div className={'row'}>
         <div className={"column"}>
-        <p className={smallTtext}>The advantage of a blockchain ledger is the verification and immutability (permanence) of data on the network.  
+        <p className={smallTtext}>The advantage of a blockchain ledger is the verification and immutability of data on the network.  
         Each stakeholder independently records information and it is distributed across computers around the world, 
         rather than stored on one central authority. The point being the Blockchain records are locally decentralized 
         in a peer to peer (P2P) network, but still constitute a logically centralized immutable set.</p>
