@@ -53,7 +53,7 @@ export default () => (
         </div>
         <div className="column column-33" style={{background: yellow}}>
           <div>
-            <h3>Peer to peer economy</h3>
+            <h3>Peer-to-peer economy</h3>
             <div className={icon} style={{backgroundImage: "url(/static/svg/13_play.svg)"}} />
             <h4>Fast, smart movement</h4>
             <p>Using decentralized applications and smart contracts  catastrophic events can trigger payments 
