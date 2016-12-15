@@ -14,7 +14,8 @@ export default () => (
         
         <div className="column column-60">
           <div className={textCardYellow}>
-            <p className="large">We all deserve to live in a world where our peers, governments and companies are prepared for the worst </p>
+            <p className="large">Aonyx is the system that enables public and 
+    private sectors to work together to save lives, distribute resources and rebuild together. .</p>
           </div>
 
         </div>
@@ -22,9 +23,9 @@ export default () => (
           <div className={textCard}>
             <h5>AT THE CORE</h5>
             <p>
-              At the core of Aonyx is using blockchain technologies,
-              that is a online distributed ledger, messaging passing and storage. 
-              It provides a user-friendly interface that is both trustworthy and transparent to all stakeholders.
+              Aonyx utilizes blockchain technologies: from smart contracts, cryptographic hashes, 
+    messaging passing, and immutable storage. 
+    It provides the user-friendly interface that is both trustworthy and transparent to all stakeholders. 
             </p>
           </div>
         </div>
