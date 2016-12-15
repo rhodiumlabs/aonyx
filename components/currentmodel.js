@@ -81,8 +81,8 @@ export default () => (
           }}>=</div>
           <div>
             <p className={'large'}>saturated</p>
+            <p className={'large'}>inefficient</p>
             <p className={'large'}>bureaucratic</p>
-            <p className={'large'}>politicized</p>
           </div>
         </div>
       </div>
