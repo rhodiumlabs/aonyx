@@ -18,9 +18,9 @@ export default () => (
           <div className={textCardYellow}>
             <h2>SMART CONTRACTS</h2>
             <p className={'large'}>
-              At the core of Aonyx is using blockchain technologies,
-              that is a online distributed ledger, messaging passing and storage. 
-              It provides a user-friendly interface that is both trustworthy and transparent to all stakeholders.
+              Allows us to automate task from business logic to common workflows. 
+    It makes updating the ledger more secure and faster based on our predefined conditions.
+
             </p>
           </div>
         </div>
