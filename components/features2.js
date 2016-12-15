@@ -37,40 +37,31 @@ export default () => (
         <div className="column column-33" style={{background: blue}}>
           <div>
             <h3 className={headerCard}>Reinsurance</h3>
-            <h4>Internet of things</h4>
-            <p>Today, we are here to bring 
-            forth the new. Our 
-            technology creates new 
-            systems to make public and 
-            private institutions work 
-            together in unison 
-            for the betterment of humanity</p>
+            <h4>Anticipate with better analysis</h4>
+            <p>Improved transparency and the most accurate information for future risk analysis. 
+  Organizations use the accumulated data to develop accurate  risk of future catastrophic events, and the long term  implications. 
+  As the event data is securely recorded, and constantly updated by other network participants; policies and claims are higher 
+  quality and cover those affected more efficiently.</p>
           </div>
         </div>
         <div className="column column-33" style={{background: yellow}}>
           <div>
             <h3 className={headerCard}>Peer to peer economy</h3>
-            <h4>Internet of things</h4>
-            <p>Today, we are here to bring 
-            forth the new. Our 
-            technology creates new 
-            systems to make public and 
-            private institutions work 
-            together in unison 
-            for the betterment of humanity</p>
+            <h4>Rebuilding Lives</h4>
+            <p>By implementing these new technologies; repetitive, time consuming work is automated.  
+  The public offices  can create a  well designed incentive program to encourage private organizations, 
+  NGOs and citizens to work during a public emergency. This allows public and governmental organizations on   
+  to focus on better, more sophisticated processes, and the long term effects of a catastrophic event. </p>
           </div>
         </div>
         <div className="column column-33" style={{background: blue}}>
           <div>
             <h3 className={headerCard}>Smart Cities</h3>
-            <h4>Internet of things</h4>
-            <p>Today, we are here to bring 
-            forth the new. Our 
-            technology creates new 
-            systems to make public and 
-            private institutions work 
-            together in unison 
-            for the betterment of humanity</p>
+            <h4>Seamless Transportation</h4>
+            <p>Rather than listening to the radio for weather and traffic conditions, your GPS will 
+  automatically route the safest and fastest path for drivers to go, public emergency services will 
+  be working off of the most up to date weather and traffic needs. Safe, reliable public transportation, 
+  on time snow removal and well directed traffic to keep the roads efficient.</p>
           </div>
         </div>
       </div>
