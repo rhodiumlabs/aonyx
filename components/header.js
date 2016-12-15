@@ -54,7 +54,7 @@ export default () => (
     <section className={header}>
       <div className={headerContent}>
         <h1 className={title}>AONYX</h1>
-        <h4 style={{color: dark}}>envision  a  world  better  prepared</h4>
+        <h4 style={{color: dark}}>protecting the connected future</h4>
         <div className={logo} ></div>
       </div>
     </section>
