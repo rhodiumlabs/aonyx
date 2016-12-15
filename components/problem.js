@@ -36,6 +36,7 @@ export const textCardYellow = css({
     color: 'white',
     fontFamily: 'Open Sans',
     textTransform: 'none',
+    fontStyle: 'italic'
   }
 })
 const wave = style({
@@ -66,7 +67,7 @@ export default () => (
             <h6>third strongest hurricane in the usa</h6>
             <ul style={{listStyleType: 'none'}}>
               <li><i className={'small-icon'} style={{backgroundImage: 'url(/static/svg/01_person.svg)'}}></i> <h3>1836 <span className={'subtitle'}>lives lost</span></h3> </li>
-              <li><i className={'small-icon'} style={{backgroundImage: 'url(/static/svg/02_circles.svg)'}}></i> <h3>$150 bn<span className={'subtitle'}>economic impact</span></h3> </li>
+              <li><i className={'small-icon'} style={{backgroundImage: 'url(/static/svg/02_circles.svg)'}}></i> <h3>$150 bn <span className={'subtitle'}>economic impact</span></h3> </li>
               <li><i className={'small-icon'} style={{backgroundImage: 'url(/static/svg/03_house.svg)'}}></i> <h3>$81 bn <span className={'subtitle'}>property damage</span></h3> </li>
             </ul>
             <div className={wave} />

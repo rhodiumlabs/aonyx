@@ -77,7 +77,7 @@ export default () => (
             color: 'rgba(0,0,0,0)',
             fontFamily: 'Work Sans',
             left: '-17%',
-            '-webkitTextStroke': `3px white`
+            '-webkitTextStroke': `2px white`
           }}>=</div>
           <div>
             <p className={'large'}>saturated</p>
