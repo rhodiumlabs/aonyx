@@ -54,8 +54,9 @@ export default () => (
       <div className="row">
         <div className="column column-60">
           <div className={textCardYellow}>
-            <p className={'large'}>Nature works in powerful ways, catastrophic events happen, 
-            and we rely on certain actors to successfully handle the impact. </p>
+            <p className={'large'}>Nature works in powerful ways, catastrophic events happen. 
+  When this unfortunate situation occurs, we rely and trust on specific actors. 
+  We ask the question, are they handling the global impact successfully? </p>
           </div>
         </div>
         <div className="column column-30 column-offset-10">
