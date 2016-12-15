@@ -25,10 +25,9 @@ export default () => (
         <div className="column column-60 column-offset-10">
           <div className={textCardYellow}>
             <p className={smalltext}>
-              These trusted actors and the current traditional models result in little to no 
-              At the core of Aonyx is using blockchain technologies,
-              that is a online distributed ledger, messaging passing and storage. 
-              It provides a user-friendly interface that is both trustworthy and transparent to all stakeholders.
+              Trusted actors and legacy models result in the little to no adoption of useful, newly available technologies. 
+The systems in place need to take advantage of a software first perspective— including instant person to person contact, 
+    live updates on data and the newest information. 
             </p>
           </div>
         </div>
