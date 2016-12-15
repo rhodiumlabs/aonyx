@@ -32,17 +32,15 @@ export default () => (
         <div className="column column-60">
           <div className={textCardYellow}>
             <p className={smalltext}>
-              These trusted actors and the current traditional models result in little to no 
-              At the core of Aonyx is using blockchain technologies,
-              that is a online distributed ledger, messaging passing and storage. 
-              It provides a user-friendly interface that is both trustworthy and transparent to all stakeholders.
+              The user-friendly interface puts trust and risk management in the forefront of technology. 
+    We know  world works better, together using trustworthy and transparent methods.
             </p>
           </div>
         </div>
         
         <div className="column column-30  column-offset-10">
           <div className={textCardBlue}>
-            <h1>Call to action!</h1>
+            <h1>Sign up for more information!</h1>
             <h4 style={{color: dark, textAlign: 'left'}}>newsletter subscription</h4>
           </div>
         </div>
