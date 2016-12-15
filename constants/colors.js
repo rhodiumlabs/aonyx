@@ -1,4 +1,5 @@
-export const stormy  = '#494E6B';
-export const sunset  = '#985E6D';
-export const evening = '#192231';
 
+export const yellow = '#EED039';
+export const dark   = '#251549';
+export const pink = '#C88896';
+export const blue = '#80CCE8';
