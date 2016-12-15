@@ -19,9 +19,8 @@ export default () => (
             <h2>Cryptographic hash</h2>
             <br/>
             <p className={'large'}>
-              At the core of Aonyx is using blockchain technologies,
-              that is a online distributed ledger, messaging passing and storage. 
-              It provides a user-friendly interface that is both trustworthy and transparent to all stakeholders.
+              Data “fingerprints” generated through one-way encryption makes checking data integrity fast and efficient. 
+    Ledgers, identity and permissions are continually validated with each transaction.
             </p>
           </div>
         </div>
