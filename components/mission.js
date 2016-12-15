@@ -44,7 +44,8 @@ export default () => (
         </div>
         <div className="column column-67">
           <div className={textCardBlue}>
-            <p className='large'>We all deserve to live in a world where our peers, governments and companies are prepared for the worst </p>
+            <p className='large'>We all deserve to live in a world where our peers, governments and companies are prepared for the worst. 
+ </p>
             <h1>Aonyx is here to <br/>make this a reality</h1>
           </div>
 
