@@ -5,7 +5,10 @@ import css, {style, merge, after, $} from 'next/css'
 import {yellow, dark,blue} from '../constants/colors'
 
 const blockchainContainer = style({
-  background: blue
+  background: blue,
+  padding: '2em 2em',
+  marginTop:'5em', 
+  marginBottom: '5em'
 })
 
 const smallHeader = style({
@@ -28,7 +31,8 @@ const smallTtext = style({
 })
 
 export default () => (
-    <section className={'container '+ blockchainContainer} style={{marginTop:'5em', marginBottom: '5em'}}>
+    <section className={'container'}> <div className={'row'}>
+    <div className={'container '+ blockchainContainer} >
       <div className="row" style={{textAlign: 'center'}}>
         <div className={"column "}>
           <h2 style={{padding: '2em'}}>BLOCKCHAIN</h2>
@@ -56,5 +60,6 @@ export default () => (
         in a peer to peer (P2P) network, but still constitute a logically centralized immutable set.</p>
         </div>
       </div>
-    </section>
+    </div>
+    </div></section>
 )

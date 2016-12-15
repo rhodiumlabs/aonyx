@@ -30,8 +30,8 @@ export default () => (
     <section className={'container'} style={{marginTop:'5em', marginBottom: '5em'}}>
       <div className="row">
         <div className="column column-60">
-          <div className={textCardYellow}>
-            <p className={smalltext}>
+          <div className={textCardYellow} style={{display: 'flex'}}>
+            <p className={'large'} style={{  display: 'flex', alignItems: 'center', justifyContent: 'center'}} >
               The user-friendly interface puts trust and risk management in the forefront of technology. 
     We know  world works better, together using trustworthy and transparent methods.
             </p>

@@ -13,7 +13,7 @@ export default () => (
       <div className="row">
         
         <div className="column column-60">
-          <div className={textCardYellow}>
+          <div className={textCardYellow} style={{display: 'flex', alignItems: 'center'}}>
             <p className="large">Aonyx is the system that enables public and 
     private sectors to work together to save lives, distribute resources and rebuild together. .</p>
           </div>

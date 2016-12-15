@@ -39,14 +39,23 @@ const subtitle = style({
   textDecoration: 'italic',
   color: dark
 })
+const logo = style({
+  background: "url(/static/svg/18_logo.svg)",
+  width: "200px",
+  height: "185px",
+  margin: "auto",
+  zIndex: "200",
+  backgroundRepeat: "no-repeat",
+  backgroundPosition: '50% 50%'
+})
 
 
 export default () => (
     <section className={header}>
       <div className={headerContent}>
         <h1 className={title}>AONYX</h1>
-        <h4 className={subtitle}>envision  a  world  better  prepared</h4>
-        <div>logo</div>
+        <h4 style={{color: dark}}>envision  a  world  better  prepared</h4>
+        <div className={logo} ></div>
       </div>
     </section>
 )

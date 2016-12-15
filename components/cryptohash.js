@@ -6,6 +6,15 @@ import {yellow, dark,blue} from '../constants/colors'
 
 
 
+const hash = style({
+  background: "url(/static/svg/10_fingerprint.svg)",
+  width: "200px",
+  height: "185px",
+  marginTop: '20%',
+  zIndex: "200",
+  backgroundRepeat: "no-repeat",
+  right: "2rem",
+})
 
 
 
@@ -17,7 +26,6 @@ export default () => (
         <div className="column column-60">
           <div className={textCardYellow}>
             <h2>Cryptographic hash</h2>
-            <br/>
             <p className={'large'}>
               Data “fingerprints” generated through one-way encryption makes checking data integrity fast and efficient. 
     Ledgers, identity and permissions are continually validated with each transaction.
@@ -25,6 +33,7 @@ export default () => (
           </div>
         </div>
         <div className="column column-30 column-offset-10">
+          <div className={hash} />
         </div>
       </div>
     </section>

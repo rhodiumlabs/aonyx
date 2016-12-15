@@ -16,16 +16,16 @@ const block = style({
   backgroundRepeat: 'no-repeat'
 })
 const header = style({
-  padding: "2em",
+  padding: "1em",
   textAlign: "center"
 })
 export default () => (
     <section className={'container'} style={{marginTop:'5em', marginBottom: '5em', padding: '0 3rem'}}>
-      <div className="row" style={{background: blue, padding: '2em'}}>
+      <div className="row" style={{background: blue, paddingTop: '2em'}}>
         <h2 className={header}>The current model</h2>
       </div>
       <div className="row" style={{background: blue, paddingBottom: '4em'}}>
-        <div className="column column-50 column-offset-10" style={{position:'relative'}}>
+        <div className="column column-50 column-offset-10" style={{position:'relative', marginTop:'2em'}}>
          
           <div className="row">
             <div className="column">
@@ -46,16 +46,16 @@ export default () => (
           </div>
           <div className="row">
             <div className="column">
-              <h6 style={{color: dark}}>public institutions</h6>
+              <h6 style={{color: dark, textAlign: 'center'}}>public<br/> institutions</h6>
             </div>
             <div className="column">
-              <h6 style={{color: dark}}>government processes</h6>
+              <h6 style={{color: dark, textAlign: 'center'}}>government<br/> processes</h6>
             </div>
             <div className="column">
-              <h6 style={{color: dark}}>private organizations</h6>
+              <h6 style={{color: dark, textAlign: 'center'}}>private <br/> organizations</h6>
             </div>
             <div className="column">
-                <h6 style={{color: dark}}>reinsurance and insurance</h6>
+                <h6 style={{color: dark, textAlign: 'center'}}>reinsurance<br/> and insurance</h6>
             </div>
           </div>
            <div style={{
@@ -67,8 +67,18 @@ export default () => (
             border: '1px solid white',
             borderTop: '0'
           }}></div>
+
         </div>
-        <div className="column column-30 column-offset-10">
+        <div className="column column-30 column-offset-10"  style={{position:'relative'}}>
+           <div style={{
+            fontSize: '50px',
+            position: 'absolute',
+            top: '23%',
+            color: 'rgba(0,0,0,0)',
+            fontFamily: 'Work Sans',
+            left: '-17%',
+            '-webkitTextStroke': `3px white`
+          }}>=</div>
           <div>
             <p className={'large'}>saturated</p>
             <p className={'large'}>bureaucratic</p>

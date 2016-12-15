@@ -27,9 +27,9 @@ export const bodyHeaders = style({
   }, 
   '& h2': {
     margin: 'auto',
-    fontSize: '18px',
+    fontSize: '24px',
     marginBottom: '0',
-    letterSpacing: '1px',
+    letterSpacing: '5px',
     fontFamily: 'Work Sans',
     textTransform: 'uppercase',
     color: 'white'
