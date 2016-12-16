@@ -43,11 +43,9 @@ export default () => (
             <h3>Reinsurance</h3>
             <div className={icon} style={{backgroundImage: "url(/static/svg/12_computers.svg)", backgroundSize:'50%'}} />
             <h4>Collaboration made simple</h4>
-            <p>Shared data and better transparency between all stakeholders, through the use of smart contracts and decentralized 
-              applications. Data can be validated by any authorized participant on the network, 
-              therefore insurance policies and associated claim information is on a trusted network. 
+            <p>Shared data and better transparency between all stakeholders, on the trusted network.
               Event details are documented using cryptographic methods, resulting in a tamper-proof record of 
-              all relevant information for the creation of higher quality policies and faster claim payout.
+              relevant information for higher quality policies and faster claim payout.
             </p>
           </div>
         </div>
@@ -56,10 +54,8 @@ export default () => (
             <h3>Peer to peer economy</h3>
             <div className={icon} style={{backgroundImage: "url(/static/svg/13_play.svg)"}} />
             <h4>Fast, smart movement</h4>
-            <p>Using decentralized applications and smart contracts  catastrophic events can trigger payments 
-              through Aonyx to parties, vendors and private assistance for those in need. 
-              When an event occurs that meets predefined conditions, Aonyx  accesses policyholders 
-              data sources on the blockchain, then determine and activate payouts to and from contract parties.</p>
+            <p>Catastrophic events trigger payments to parties, vendors and private assistance for those in need. 
+              When an event occurs, Aonyx accesses policyholders data to determine and activate payouts.</p>
           </div>
         </div>
         <div className="column column-33" style={{background: blue}}>
@@ -67,11 +63,10 @@ export default () => (
             <h3>Smart Cities</h3>
             <div className={icon} style={{backgroundImage: "url(/static/svg/14_prop.svg)"}} />
             <h4>Internet of things</h4>
-            <p>Information capturing devices and smart contracts, Aonyx will be able to  prompt emergency services 
-            when needed. By capturing data onto the immutable ledger— 
-            this information will save time and resources on when is the right time to act. 
-            Imagine WiFi drones, connected weather networks giving the most up to date data to citizens, 
-            public workers, government offices and insurance companies when help is needed most.
+            <p>Using an intelligent sensor network, Aonyx will prompt emergency services 
+           during right circumstances to save time and resources. 
+            From WiFi drones to connected weather sensors, they can give the most up to date data to citizens, 
+             government offices and insurance companies when it is most needed.
           </p>
           </div>
         </div>
