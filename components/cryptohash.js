@@ -27,8 +27,8 @@ export default () => (
           <div className={textCardYellow}>
             <h2>Cryptographic hash</h2>
             <p className={'large'}>
-              Data “fingerprints” generated through one-way encryption makes checking data integrity fast and efficient. 
-    Ledgers, identity and permissions are continually validated with each transaction.
+              Unique data keys generated through one-way encryption that makes checking data integrity fast and efficient. 
+    Ledgers, identity, or permissions are continually validated with each transaction.
             </p>
           </div>
         </div>
