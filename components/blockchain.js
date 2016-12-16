@@ -21,7 +21,7 @@ const smallHeader = style({
     color: 'white'
 })
 
-const smallTtext = style({
+const smallText = style({
     display: 'inline-block',
     fontSize: '18px',
     fontFamily: 'Open Sans',
@@ -54,11 +54,11 @@ export default () => (
       </div>
       <div className={'row'}>
         <div className={"column"}>
-        <p className={smallTtext}>Our advantage is using a software first perspective. A big part of our stack includes the blockchain ledger, 
-        using the verification and immutability advantages for that data of the network. Our stakeholders 
-        independently records information and it is distributed across computers around the world, 
-        rather than stored on a central authority. The point being the blockchain records are locally decentralized 
-        in a peer to peer network, but still constitute a logically centralized immutable set.</p>
+        <p className={smallText}>The advantage of a blockchain ledger is the verification and immutability of data on the network.  
+        Each stakeholder independently records information and which is distributed across computers around the world, 
+        rather than stored by one central authority. The point being the Blockchain records are locally decentralized 
+        in a peer-to-peer (P2P) network, but still constitute a logically centralized immutable set.</p>
+
         </div>
       </div>
     </div>
