@@ -47,7 +47,8 @@ export default () => (
         <div className="column column-60 column-offset-10 ">
           <div className={textCardBlue}>
             <p className='large' style={{lineHeight: "28px", marginBottom: "0"}}>
-              We all deserve to live in a world where our peers, governments and companies are prepared for the worst. 
+              We all deserve protection from loss, security from unanticipated risk, and
+              dominion over our data. 
             </p>
             <h1>Aonyx is here to <br/>make this a reality.</h1>
           </div>

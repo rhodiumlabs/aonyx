@@ -28,7 +28,7 @@ export default () => (
           <div className={textCardYellow} style={{textAlign: 'right'}}>
             <h2>SMART CONTRACTS</h2>
             <p className={'large'}>
-              Allows us to automate task from business logic to common workflows. 
+              Allows us to automate tasks from business logic to common workflows. 
     It makes updating the ledger more secure and faster based on our predefined conditions.
 
             </p>

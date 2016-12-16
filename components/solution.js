@@ -14,18 +14,18 @@ export default () => (
         
         <div className="column column-60">
           <div className={textCardYellow} style={{display: 'flex', alignItems: 'center'}}>
-            <p className="large">Aonyx is the system that enables public and 
-    private sectors to work together to save lives, distribute resources and rebuild together. .</p>
+            <p className="large"> Aonyx completely reinvents what it means to analyze risk. 
+                                   We are building a technology-first reinsurnace company, 
+                                    that enables public and private sectors to work together during catestrophic events.</p>
           </div>
 
         </div>
         <div className="column column-30 column-offset-10">
           <div className={textCard}>
             <h5>AT THE CORE</h5>
-            <p>
-              Aonyx utilizes blockchain technologies: from smart contracts, cryptographic hashes, 
-    messaging passing, and immutable storage. 
-    It provides the user-friendly interface that is both trustworthy and transparent to all stakeholders. 
+            <p> Innovating from the protocol all the way up to the interface. 
+    Companies ensuring basic needs, risk and survival, should built to last, but also develop agility to 
+    remain on par with emerging technologies.
             </p>
           </div>
         </div>
