@@ -38,9 +38,10 @@ export default () => (
         <div className="column column-60 column-offset-10">
           <div className={textCardYellow}>
             <p className={'large'}>
-              {"Trusted actors and legacy models result in the little to no adoption of useful, newly available technologies. \
-              The systems in place need to take advantage of a software first perspective— including instant person to person contact, \
-              live updates on data and the newest information. "}
+              {"
+               For any innovative industry, there is a requirement to have a software first understanding of communication, data and security.
+               It is assumed that legacy algorithms are the most efficient risk analysis tool.
+               This results in a poor understanding of computational advantages, putting the risk industry at a disadvantage in our new era. \ "}
             </p>
           </div>
         </div>
