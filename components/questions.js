@@ -38,10 +38,9 @@ export default () => (
         <div className="column column-60 column-offset-10">
           <div className={textCardYellow}>
             <p className={'large'}>
-              {"
                For any innovative industry, there is a requirement to have a software first understanding of communication, data and security.
                It is assumed that legacy algorithms are the most efficient risk analysis tool.
-               This results in a poor understanding of computational advantages, putting the risk industry at a disadvantage in our new era. \ "}
+               This results in a poor understanding of computational advantages, putting the risk industry at a disadvantage in our new era.
             </p>
           </div>
         </div>

@@ -21,6 +21,7 @@ const textCardBlue = style({
   '& h1': {
     fontSize: '50px',
     fontFamily: 'Work Sans',
+    fontWeight: 800,
     '-webkitTextStroke': `3px ${dark}`,
     textTransform: 'uppercase',
     color: blue

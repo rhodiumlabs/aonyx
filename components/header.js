@@ -27,6 +27,7 @@ const title = style({
   fontSize: '90px',
   lineHeight: '80px',
   fontFamily: 'Work Sans',
+  fontWeight: 800,
   marginBottom:0,
   paddingBottom: 0,
   color: 'white'
