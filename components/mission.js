@@ -36,22 +36,20 @@ export default () => (
         <div className="column column-30">
           <div className={textCard}>
             <h5>Our Mission</h5>
-            <p>Today, we are here to bring 
-            forth the new. Our 
-            technology creates new 
-            systems to make public and 
-            private institutions work 
-            together in unison 
-            for the betterment of humanity</p>
+            <p>We are inventing
+	    planetary scale protocols
+	    to power the next generation of 
+	    risk transfer infrastructure.
+	    </p>
           </div>
         </div>
         <div className="column column-60 column-offset-10 ">
           <div className={textCardBlue}>
             <p className='large' style={{lineHeight: "28px", marginBottom: "0"}}>
-              We all deserve protection from loss, security from unanticipated risk, and
-              dominion over our data. 
+              Our world is more digital and networked than ever before yet
+	      the way we manage risk is still siloed and arcane.
             </p>
-            <h1>Aonyx is here to <br/>make this a reality.</h1>
+            <h1>Aonyx is the<br/>API for risk transfer</h1>
           </div>
 
         </div>

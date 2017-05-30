@@ -57,8 +57,7 @@ export default () => (
         <div className="column column-60">
           <div className={textCardYellow} style={{display: 'flex', alignItems: 'center'}}>
             <p className={'large'}> 
-  Low frequency, high severity events require large scale movement from specific actors. 
-  However, they are not taking advantage of all the technology available today to handle catastrophic impact successfully. </p>
+  Our economy is the largest in all of recorded history.</p>
           </div>
         </div>
         <div className="column column-30 column-offset-10">
