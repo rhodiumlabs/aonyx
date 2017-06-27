@@ -13,10 +13,9 @@ const learnmore = merge({
 
 const header = style({
   display: 'flex',
-  height: '100vh',
+  height: '100%',
   alignItems: 'left',
   textAlign: 'left',
-  border: '2em',
   background: grey
 })
 const headerContent = style({
@@ -24,11 +23,12 @@ const headerContent = style({
   width: '100%',
 })
 const title = style({
-  fontSize: '100px',
-  lineHeight: '90px',
+  fontSize: '36px',
+  lineHeight: '30px',
   fontFamily: 'Avenir Next',
   fontWeight: 500,
   letterSpacing: '.2em',
+  textTransform: 'uppercase',
   marginBottom:0,
   paddingBottom: 0,
   color: darkblue
@@ -55,7 +55,7 @@ const logo = style({
 export default () => (
     <section className={header}>
       <div className={headerContent}>
-        <h1 className={title}>AONYX</h1>
+        <h1 className={title}>aonyx</h1>
         <p className={subtitle}>{`One day a Wolf said to her mate, “A longing has come upon me to eat fresh fish.”`} 
         <br/><br/>  
         {`“I will go and get some for you,” said he and he went down to the river.`} 
