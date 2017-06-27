@@ -40,7 +40,7 @@ export default () => (
       <div className="row">
         <div className="column column-33" style={{background: blue}}>
           <div>
-            <h3>Reinsurance</h3>
+            <h3>Incident Reports</h3>
             <div className={icon} style={{backgroundImage: "url(/static/svg/12_computers.svg)", backgroundSize:'50%'}} />
             <h4>Collaboration made simple</h4>
             <p>Shared data and better transparency between all stakeholders, on the trusted network.
@@ -51,7 +51,7 @@ export default () => (
         </div>
         <div className="column column-33" style={{background: yellow}}>
           <div>
-            <h3>Peer-to-peer economy</h3>
+            <h3>Video Anomalies</h3>
             <div className={icon} style={{backgroundImage: "url(/static/svg/13_play.svg)"}} />
             <h4>Fast, smart movement</h4>
             <p>Catastrophic events trigger payments to parties, vendors and private assistance for those in need. 

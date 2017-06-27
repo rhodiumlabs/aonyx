@@ -13,7 +13,7 @@ export default () => (
           <div>
             <h3></h3>
 
-            <h4>Anticipate with better analysis</h4>
+            <h4>Risk Analytics</h4>
             <div className={icon} style={{backgroundImage: "url(/static/svg/15_analysis.svg)", backgroundSize:'50%'}} />
             <p>Curate and log accurate catastrophic event data for future risk analysis. 
   to cover those affected more efficiently and protect against long term implications.</p>
@@ -22,7 +22,7 @@ export default () => (
         <div className="column column-33" style={{background: yellow}}>
           <div>
             <h3></h3>
-            <h4>Rebuilding Lives</h4>
+            <h4>Safer Communities</h4>
             <div className={icon} style={{backgroundImage: "url(/static/svg/16_rebuilding.svg)"}} />
             <p>Repetitive, time consuming work is automated, allowing  public and governmental organizations   
   to focus on more sophisticated processes, and the hedge against continuous effects of catastrophic events. </p>

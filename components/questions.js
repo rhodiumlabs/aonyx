@@ -29,18 +29,15 @@ export default () => (
         
         <div className="column column-30">
           <div className={person}>
-            Why are we <br/> 
-            trusting them <br/>
-            when they <br/>
-            cannot keep up?
+            How would insurance <br/> 
+            work we invented<br/>
+            it today?
           </div>
         </div>
         <div className="column column-60 column-offset-10">
           <div className={textCardYellow}>
             <p className={'large'}>
-               For any innovative industry, there is a requirement to have a software first understanding of communication, data and security.
-               It is assumed that legacy algorithms are the most efficient risk analysis tool.
-               This results in a poor understanding of computational advantages, putting the risk industry at a disadvantage in our new era.
+               We believe that the risk transfer industry must adopt software first principles in order to build more efficient risk mitigation.
             </p>
           </div>
         </div>

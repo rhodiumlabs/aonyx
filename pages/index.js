@@ -1,18 +1,6 @@
 import React from 'react'
 import Page from '../containers/page'
 import Header from '../components/header'
-import Mission from '../components/mission'
-import Seperator from '../components/seperator'
-import Problem from '../components/problem'
-import Solution from '../components/solution'
-import Blockchain from '../components/blockchain'
-import CurrentModel from '../components/currentmodel'
-import Features from '../components/features'
-import FeaturesTwo from '../components/features2'
-import CryptoHash from '../components/cryptohash'
-import Questions from '../components/questions'
-import SmartContracts from '../components/smartcontracts'
-import CallToAction from '../components/calltoaction'
 import css, {style, merge, after, $} from 'next/css'
 import {blue, dark} from '../constants/colors'
 
@@ -70,20 +58,5 @@ export const bodyHeaders = style({
 export default () => (
   <Page className={bodyHeaders}>
     <Header />
-    <Mission />
-    <Seperator title="the problem"/>
-
-    <Problem />
-    <CurrentModel />
-    <Questions />
-    <Seperator title="the solution"/>
-    <Solution />
-    <Blockchain />
-    <CryptoHash />
-    <SmartContracts />
-    <Features />
-    <FeaturesTwo />
-    <Seperator title="how aonyx works"/>
-    <CallToAction />
   </Page>
 )

@@ -57,7 +57,7 @@ export default () => (
         <div className="column column-60">
           <div className={textCardYellow} style={{display: 'flex', alignItems: 'center'}}>
             <p className={'large'}> 
-  Our economy is the largest in all of recorded history.</p>
+            {`Fundamental changes in natural, economic, social and political spheres, shifting stakeholder expectations and wide-reaching technological innovations lead to a perpetually changing and demanding risk environment. As insurance is the business of risk mitigation, this industry is particularly exposed to these external forces.`}</p>
           </div>
         </div>
         <div className="column column-30 column-offset-10">

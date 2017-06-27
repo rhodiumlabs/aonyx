@@ -22,10 +22,10 @@ export default () => (
         </div>
         <div className="column column-30 column-offset-10">
           <div className={textCard}>
-            <h5>AT THE CORE</h5>
+            <h5>A HYBRID MODEL</h5>
             <p> We are combining classic actuarial methods with 
 	    state of the art deep learning techniques
-	    to build smarter and more precise risk transfer rails.
+	    to build smarter and more precise risk transfer software protocols.
             </p>
           </div>
         </div>
