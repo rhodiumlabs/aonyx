@@ -13,7 +13,7 @@ const learnmore = merge({
 
 const header = style({
   display: 'flex',
-  height: '100%',
+  minHeight: '100vh',
   alignItems: 'left',
   textAlign: 'left',
   background: grey
