@@ -2,7 +2,7 @@ import React from 'react'
 import Head from 'next/head'
 import CanvasAnim from './canvasAnim';
 import css, {style, merge, after, $} from 'next/css'
-import { yellow, dark} from '../constants/colors'
+import { yellow, dark, darkblue, grey} from '../constants/colors'
 
 const learnmore = merge({
   fontFamily: "Avenir Next",
@@ -16,8 +16,8 @@ const header = style({
   height: '100vh',
   alignItems: 'left',
   textAlign: 'left',
-  border: '2em solid white',
-  background: 'white'
+  border: '2em',
+  background: grey
 })
 const headerContent = style({
   margin: '2em 2em',
@@ -27,10 +27,11 @@ const title = style({
   fontSize: '100px',
   lineHeight: '90px',
   fontFamily: 'Avenir Next',
-  fontWeight: 800,
+  fontWeight: 500,
+  letterSpacing: '.2em',
   marginBottom:0,
   paddingBottom: 0,
-  color: 'black'
+  color: darkblue
 })
 
 const subtitle = style({
@@ -38,7 +39,7 @@ const subtitle = style({
   fontStyle: 'normal',
   fontFamily: 'Prestige Elite Std',
   marginTop: 40,
-  color: dark
+  color: darkblue
 })
 const logo = style({
   background: "url(/static/svg/18_logo.svg)",
